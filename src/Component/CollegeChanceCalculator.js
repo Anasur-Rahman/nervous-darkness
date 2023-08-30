@@ -71,7 +71,7 @@ const CollegeChanceCalculator = ({ studentData }) => {
       student.Gpa === "5.00"
     ) {
       chances = {
-        "Chittagong College": 87,
+        "Chittagong College": 0,
         "Govt. Mohsin College": 100,
         "Govt. City College": 100,
         "Bakalia Govt. College": 100,
@@ -83,7 +83,7 @@ const CollegeChanceCalculator = ({ studentData }) => {
       student.Gpa === "5.00"
     ) {
       chances = {
-        "Chittagong College": 79,
+        "Chittagong College": 0,
         "Govt. Mohsin College": 100,
         "Govt. City College": 100,
         "Bakalia Govt. College": 100,
@@ -128,7 +128,7 @@ const CollegeChanceCalculator = ({ studentData }) => {
     } else if (student.Marks === 1188 && student.Gpa === "5.00") {
       chances = {
         "Chittagong College": 0,
-        "Govt. Mohsin College": 86,
+        "Govt. Mohsin College": 0,
         "Govt. City College": 99,
         "Bakalia Govt. College": 100,
         "Chittagong Government Model School and College ": 100,
